@@ -2,9 +2,9 @@ using Fina.Core.Responses;
 using Fina.Core.Models;
 using Fina.Core.Requests.Categories;
 
-namespace Fina.Core.Handlers;
+namespace Fina.Core.Services;
 
-public interface ICategoryHandler
+public interface ICategoryService
 {
     Task<Response<Category?>> CreateAsync(CreateCategoryRequest request);
     
