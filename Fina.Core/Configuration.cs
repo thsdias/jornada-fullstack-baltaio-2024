@@ -8,7 +8,7 @@ public static class Configuration
 
     public const int DefaultStatusCode = 200;
 
-    public static string BackendUrl { get; set; } = "http://localhost:5250";
+    public static string BackendUrl { get; set; } = "http://localhost:5299";
     
-    public static string FrontendUrl { get; set; } = "http://localhost:5200";
+    public static string FrontendUrl { get; set; } = "http://localhost:5018";
 }
